@@ -1,0 +1,31 @@
+services:
+  servidor1:
+    build: .
+    container_name: servidor1
+    ports:
+      - "2201:22"
+    restart: always
+  servidor2:
+    build: .
+    container_name: servidor2
+    ports:
+      - "2202:22"
+    restart: always
+  servidor3:
+    build: .
+    container_name: servidor3
+    ports:
+      - "2203:22"
+    restart: always
+  servidor4:
+    build: .
+    container_name: servidor4
+    ports:
+      - "2204:22"
+    restart: always
+  servidor5:
+    build: .
+    container_name: servidor5
+    ports:
+      - "2205:22"
+    restart: always
